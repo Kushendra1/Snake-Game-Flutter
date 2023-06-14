@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">604072449394-rcaeme09h6uk6kqt0v551o873rpm7ecc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">604072449394</string>
+    <string name="google_api_key" translatable="false">AIzaSyB3ZLZxP-NJEzLnzRYbSP4nym2pZd5DlW0</string>
+    <string name="google_app_id" translatable="false">1:604072449394:android:a805ed54b7dfae293cf9eb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB3ZLZxP-NJEzLnzRYbSP4nym2pZd5DlW0</string>
+    <string name="google_storage_bucket" translatable="false">snake-game-d5137.appspot.com</string>
+    <string name="project_id" translatable="false">snake-game-d5137</string>
+</resources>

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.0"
+    buildFolder="/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/app"
+    bootClassPath="/Users/williamrai/Library/Android/sdk/platforms/android-33/android.jar:/Users/williamrai/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

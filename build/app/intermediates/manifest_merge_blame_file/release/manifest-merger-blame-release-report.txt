@@ -1,0 +1,281 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.frontend"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
+13
+14    <application
+15        android:name="android.app.Application"
+15-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:6:9-42
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] /Users/williamrai/.gradle/caches/transforms-3/834a4435b41144e2f8076acb9024a891/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/launcher_icon"
+18-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:7:9-45
+19        android:label="snake game" >
+19-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:5:9-35
+20        <activity
+20-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:8:9-36:20
+21            android:name="com.example.frontend.MainActivity"
+21-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:9:13-41
+22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+22-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:14:13-163
+23            android:exported="true"
+23-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:10:13-36
+24            android:hardwareAccelerated="true"
+24-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:15:13-47
+25            android:launchMode="singleTop"
+25-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:12:13-43
+26            android:screenOrientation="portrait"
+26-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:11:13-49
+27            android:theme="@style/LaunchTheme"
+27-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:13:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:16:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:21:13-24:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:22:15-70
+38                android:resource="@style/NormalTheme" />
+38-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:23:15-52
+39
+40            <intent-filter>
+40-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:26:17-68
+41-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:27:17-76
+43-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45            <intent-filter>
+45-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:29:13-35:29
+46                <action android:name="android.intent.action.VIEW" />
+46-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:17-68
+46-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:17-75
+48-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:27-73
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:17-77
+49-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:27-75
+50                <!-- TODO: Change the link -->
+51                <data
+51-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:17-82
+52                    android:host="snakegame.page.link"
+52-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:23-57
+53                    android:scheme="https" />
+53-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:58-80
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:39:9-41:33
+61            android:name="flutterEmbedding"
+61-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:40:13-44
+62            android:value="2" />
+62-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:41:13-30
+63
+64        <service
+64-->[:firebase_auth] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[:firebase_auth] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:68:13-37
+68            <meta-data
+68-->[:firebase_auth] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+69-->[:firebase_auth] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_auth] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+71            <meta-data
+71-->[:firebase_dynamic_links] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
+72-->[:firebase_dynamic_links] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-131
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_dynamic_links] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-82
+74            <meta-data
+74-->[:firebase_core] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+75-->[:firebase_core] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_core] /Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:70:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:71:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/williamrai/.gradle/caches/transforms-3/0ee67c2f813b808a4ed437e093991846/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+81                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+81-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/williamrai/.gradle/caches/transforms-3/0ee67c2f813b808a4ed437e093991846/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/williamrai/.gradle/caches/transforms-3/0ee67c2f813b808a4ed437e093991846/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+83        </service>
+84
+85        <activity
+85-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:29:9-46:20
+86            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+86-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:30:13-80
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:31:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:32:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:33:13-44
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+90-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:34:13-72
+91            <intent-filter>
+91-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:35:13-45:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:17-68
+92-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:17-75
+94-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:17-77
+95-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:27-75
+96
+97                <data
+97-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:17-82
+98                    android:host="firebase.auth"
+98-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:23-57
+99                    android:path="/"
+100                    android:scheme="genericidp" />
+100-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:58-80
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:47:9-64:20
+104            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+104-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:48:13-79
+105            android:excludeFromRecents="true"
+105-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:49:13-46
+106            android:exported="true"
+106-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:50:13-36
+107            android:launchMode="singleTask"
+107-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:51:13-44
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+108-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:52:13-72
+109            <intent-filter>
+109-->[com.google.firebase:firebase-auth:21.3.0] /Users/williamrai/.gradle/caches/transforms-3/b03fe2d184e0a81da71608ed261708c7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:53:13-63:29
+110                <action android:name="android.intent.action.VIEW" />
+110-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:17-68
+110-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:30:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:17-75
+112-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:31:27-73
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:17-77
+113-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:32:27-75
+114
+115                <data
+115-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:17-82
+116                    android:host="firebase.auth"
+116-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:23-57
+117                    android:path="/"
+118                    android:scheme="recaptcha" />
+118-->/Users/williamrai/Documents/Hunter College/Spring 2023/Flutter/project2/group-project-two-team-2/frontend/android/app/src/main/AndroidManifest.xml:34:58-80
+119            </intent-filter>
+120        </activity>
+121
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.window.extensions"
+123-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+125        <uses-library
+125-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+126            android:name="androidx.window.sidecar"
+126-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+127            android:required="false" />
+127-->[androidx.window:window:1.0.0-beta04] /Users/williamrai/.gradle/caches/transforms-3/2ffb0360d83bab6ed7665e63bcb66d04/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+131            android:authorities="com.example.frontend.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+132            android:directBootAware="true"
+132-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:20.3.2] /Users/williamrai/.gradle/caches/transforms-3/ea39f342bf1645a9d43372302f3d0356/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+135
+136        <activity
+136-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+137            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+137-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+138            android:excludeFromRecents="true"
+138-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+141        <!--
+142            Service handling Google Sign-In user revocation. For apps that do not integrate with
+143            Google Sign-In, this service will never be started.
+144        -->
+145        <service
+145-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+146            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+146-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+147            android:exported="true"
+147-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+148            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+148-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+149            android:visibleToInstantApps="true" />
+149-->[com.google.android.gms:play-services-auth:20.5.0] /Users/williamrai/.gradle/caches/transforms-3/c9733d17f4fc1597865b4e58b922ad09/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:18.0.1] /Users/williamrai/.gradle/caches/transforms-3/e6462e04c24d31fa20570cdf4bb4e1c8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:18.0.1] /Users/williamrai/.gradle/caches/transforms-3/e6462e04c24d31fa20570cdf4bb4e1c8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:18.0.1] /Users/williamrai/.gradle/caches/transforms-3/e6462e04c24d31fa20570cdf4bb4e1c8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:18.0.1] /Users/williamrai/.gradle/caches/transforms-3/e6462e04c24d31fa20570cdf4bb4e1c8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.2.0] /Users/williamrai/.gradle/caches/transforms-3/81a136152115b5f36e3ca481692a5113/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.2.0] /Users/williamrai/.gradle/caches/transforms-3/81a136152115b5f36e3ca481692a5113/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.2.0] /Users/williamrai/.gradle/caches/transforms-3/81a136152115b5f36e3ca481692a5113/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+159    </application>
+160
+161</manifest>
